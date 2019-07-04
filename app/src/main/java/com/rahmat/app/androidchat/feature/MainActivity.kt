@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity(), MainContract.View {
     }
 
     fun initPresenter(){
-        val aiConfiguration = ai.api.android.AIConfiguration("4d69deed68c741538601a96a606b8913",
+        val aiConfiguration = ai.api.android.AIConfiguration("ebc9127631c44a47a1275e794ac8959a",
                 AIConfiguration.SupportedLanguages.English,
                 ai.api.android.AIConfiguration.RecognitionEngine.System)
 
